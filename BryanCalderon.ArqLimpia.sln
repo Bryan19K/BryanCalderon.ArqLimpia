@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BryanCalderon.ArqLimpia.EN", "Esfe.BryanCalderon.ArqLimpia\BryanCalderon.ArqLimpia.EN.csproj", "{8C78D43E-98FC-457B-83CC-66CB296A75F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Business Rules", "Enterprise Business Rules", "{063CE7D7-7AEA-44CC-83CF-B6E2777B3FD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Business Rules", "Application Business Rules", "{0C56568C-F1F0-4F8B-86FC-78FD29C0FC4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Adapter", "Interface Adapter", "{177BBFD2-2285-4B43-A198-1E3762A05117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameworksDrives", "FrameworksDrives", "{EF3AFC89-51DB-4127-8109-B41D9A1CF877}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BryanCalderon..ArqLimpia.EN.interfaces", "ESFE.ArqLimpia.EN.interfaces\BryanCalderon..ArqLimpia.EN.interfaces.csproj", "{D05EA54B-69AD-4914-9718-9DADF366BD75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BryanCalderon.ArqLimpia.BL", "ESFE.ArqLimpia.BL\BryanCalderon.ArqLimpia.BL.csproj", "{7B39CAE8-651E-4C9C-B245-27992CEC7412}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BryanCalderon.ArqLimpia.BL.Interfaces", "ESFE.ArqLimpia.BL.Interfaces\BryanCalderon.ArqLimpia.BL.Interfaces.csproj", "{06E6F2B7-0E0D-4573-ADCF-9735EB766276}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BryanCalderon.ArqLimpia.BL.DTOs", "ESFE.ArqLimpia.BL.DTOs\BryanCalderon.ArqLimpia.BL.DTOs.csproj", "{6CA9726C-FC61-4272-A656-3E288D838DEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BryanCalderon.ArqLimpia.DAL", "ESFE.ArqLimpia.DAL\BryanCalderon.ArqLimpia.DAL.csproj", "{AC019A8A-BFA3-4C54-933B-A8CE38ACFEFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BryanCalderon.ArqLimpia.Loc", "ESFE.ArqLimpia.Loc\BryanCalderon.ArqLimpia.Loc.csproj", "{58B0A15A-1BCA-4435-A33C-9FA38587E599}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BryanCalderon.ArqLimpia.API", "ESFE.ArqLimpia.API\BryanCalderon.ArqLimpia.API.csproj", "{C0B1F1B8-DF65-49CE-B97C-993ECDECC43B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C78D43E-98FC-457B-83CC-66CB296A75F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C78D43E-98FC-457B-83CC-66CB296A75F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C78D43E-98FC-457B-83CC-66CB296A75F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C78D43E-98FC-457B-83CC-66CB296A75F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05EA54B-69AD-4914-9718-9DADF366BD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05EA54B-69AD-4914-9718-9DADF366BD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05EA54B-69AD-4914-9718-9DADF366BD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05EA54B-69AD-4914-9718-9DADF366BD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B39CAE8-651E-4C9C-B245-27992CEC7412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B39CAE8-651E-4C9C-B245-27992CEC7412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B39CAE8-651E-4C9C-B245-27992CEC7412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B39CAE8-651E-4C9C-B245-27992CEC7412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E6F2B7-0E0D-4573-ADCF-9735EB766276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E6F2B7-0E0D-4573-ADCF-9735EB766276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E6F2B7-0E0D-4573-ADCF-9735EB766276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E6F2B7-0E0D-4573-ADCF-9735EB766276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA9726C-FC61-4272-A656-3E288D838DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA9726C-FC61-4272-A656-3E288D838DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA9726C-FC61-4272-A656-3E288D838DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA9726C-FC61-4272-A656-3E288D838DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC019A8A-BFA3-4C54-933B-A8CE38ACFEFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC019A8A-BFA3-4C54-933B-A8CE38ACFEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC019A8A-BFA3-4C54-933B-A8CE38ACFEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC019A8A-BFA3-4C54-933B-A8CE38ACFEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B0A15A-1BCA-4435-A33C-9FA38587E599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B0A15A-1BCA-4435-A33C-9FA38587E599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B0A15A-1BCA-4435-A33C-9FA38587E599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B0A15A-1BCA-4435-A33C-9FA38587E599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B1F1B8-DF65-49CE-B97C-993ECDECC43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B1F1B8-DF65-49CE-B97C-993ECDECC43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B1F1B8-DF65-49CE-B97C-993ECDECC43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B1F1B8-DF65-49CE-B97C-993ECDECC43B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C78D43E-98FC-457B-83CC-66CB296A75F4} = {063CE7D7-7AEA-44CC-83CF-B6E2777B3FD8}
+		{D05EA54B-69AD-4914-9718-9DADF366BD75} = {063CE7D7-7AEA-44CC-83CF-B6E2777B3FD8}
+		{7B39CAE8-651E-4C9C-B245-27992CEC7412} = {0C56568C-F1F0-4F8B-86FC-78FD29C0FC4A}
+		{06E6F2B7-0E0D-4573-ADCF-9735EB766276} = {0C56568C-F1F0-4F8B-86FC-78FD29C0FC4A}
+		{6CA9726C-FC61-4272-A656-3E288D838DEA} = {0C56568C-F1F0-4F8B-86FC-78FD29C0FC4A}
+		{AC019A8A-BFA3-4C54-933B-A8CE38ACFEFF} = {177BBFD2-2285-4B43-A198-1E3762A05117}
+		{58B0A15A-1BCA-4435-A33C-9FA38587E599} = {177BBFD2-2285-4B43-A198-1E3762A05117}
+		{C0B1F1B8-DF65-49CE-B97C-993ECDECC43B} = {EF3AFC89-51DB-4127-8109-B41D9A1CF877}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BAB807A-04A8-435A-8901-F07AA0BEFC0A}
+	EndGlobalSection
+EndGlobal
